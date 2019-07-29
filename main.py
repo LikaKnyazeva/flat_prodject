@@ -24,14 +24,6 @@ restroom1 = Restroom(5.0)
 restroom2 = Restroom(7.0)
 
 
-# Посчитать количество комнат
-def count_of_room():
-    room.view_count()
-    room1.view_count()
-    room2.view_count()
-    print(room.count_room + room1.count_room + room2.count_room)
-
-
 # Метод площади комнаты
 def area_room():
     area2 = room.footage + room1.footage + room2.footage
@@ -79,9 +71,7 @@ def main():
     count_of_restroom()
     # count_of_room()
     print(flat.room_number)
-
-
-
+    flat.area_room()
 
 
 if __name__ == "__main__":

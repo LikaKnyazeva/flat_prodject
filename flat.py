@@ -24,4 +24,7 @@ class Flat(object):
     def room_number(self) -> int:
         return len(self.rooms)
 
+    def area_room(self):
+        """ Метод площади комнаты """
+        return sum([room.footage for room in self.rooms])
 
