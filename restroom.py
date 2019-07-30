@@ -1,3 +1,6 @@
+""" Restroom class"""
+
+
 class Restroom(object):
 
 
