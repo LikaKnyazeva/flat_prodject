@@ -1,3 +1,6 @@
+""" Room class"""
+
+
 class Room(object):
     def __init__(self, name: str, balcony: bool, footage: float):
         self.name = name
@@ -15,5 +18,3 @@ class Room(object):
 
     def plan_room(self):
         pass
-
-
