@@ -1,3 +1,5 @@
+""" the main"""
+
 from flat import Flat
 from restroom import Restroom
 from room import Room
